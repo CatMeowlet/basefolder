@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/*
+    include variables amd function
+*/
+@import "../core/**/*";
+
+.partslist{
+
+    @include is-sp{
+        background-color: red;
+    }
+    @include is-tabpc{
+        background-color: gray;
+    }
+}
