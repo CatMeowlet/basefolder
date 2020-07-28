@@ -96,6 +96,9 @@ For css we use sass to compile.
  # Additional Info
   + When creating a sass file use the naming " _file.scss ".
   + __component__ can be edited in __project__ and __page__ , __project__ to __page__ but not the other way around.
+  + For vhosting use laravel valet (mac) or laragon.
+    + laravel valet docs - https://laravel.com/docs/7.x/valet.
+    + laragon docs - https://laragon.org/docs/.
   
   
   
