@@ -99,7 +99,8 @@ For css we use sass to compile.
   + For vhosting use laravel valet (mac) or laragon.
     + laravel valet docs - https://laravel.com/docs/7.x/valet.
     + laragon docs - https://laragon.org/docs/.
-  
+  + For ability to select Node Version refer to the link below. 
+    + https://github.com/coreybutler/nvm-windows
   
   
   
