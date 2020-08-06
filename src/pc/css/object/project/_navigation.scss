@@ -1,0 +1,15 @@
+.p-navigation {
+    display: flex;
+    margin: 0 0 0 auto;
+    position: relative;
+    &__link {
+        padding: 0 1rem;
+        .items {
+            color: white;
+            @include is-pc{
+                @include font-line(20);
+            }
+        }
+    }
+
+}

@@ -1,0 +1,108 @@
+.form {
+    &__top {
+        margin-bottom: 10px;
+    }
+
+    &__description {
+        margin: 10px 0;
+    }
+
+    &__center {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px 0;
+        justify-content: space-between;
+    }
+
+    &__text,
+    &__textarea {
+        width: 48%;
+        border: 1px solid;
+        border-top-color: transparent;
+        border-left-color: transparent;
+        border-right-color: transparent;
+        background-color: transparent;
+        @include font-line(16);
+        border-bottom-color: #A9A9A9;
+        margin: 20px 0;
+    }
+
+    &__text {
+        height: 40px;
+
+        &:nth-child(n+3) {
+            width: 100%;
+        }
+    }
+
+    &__textarea {
+        height: 200px;
+        width: 100%;
+        resize: none;
+    }
+
+    // &__checkboxContainer {
+    //     display: block;
+    //     position: relative;
+    //     padding-left: 35px;
+    //     margin-bottom: 12px;
+    //     cursor: pointer;
+    //     font-size: 22px;
+    //     -webkit-user-select: none;
+    //     -moz-user-select: none;
+    //     -ms-user-select: none;
+    //     user-select: none;
+
+    //     input {
+    //         position: absolute;
+    //         opacity: 0;
+    //         cursor: pointer;
+    //         height: 0;
+    //         width: 0;
+    //     }
+    // }
+
+    // &__checkMark {
+    //     position: absolute;
+    //     top: 0;
+    //     left: 0;
+    //     height: 25px;
+    //     width: 25px;
+    //     background-color: #eee;
+    // }
+
+    // /* On mouse-over, add a grey background color */
+    // &__checkboxContainer:hover input~.form__checkMark {
+    //     background-color: #ccc;
+    // }
+
+    // /* When the checkbox is checked, add a blue background */
+    // &__checkboxContainer input:checked~.form__checkMark {
+    //     background-color: #2196F3;
+    // }
+
+    // /* Create the checkmark/indicator (hidden when not checked) */
+    // .form__checkMark:after {
+    //     content: "";
+    //     position: absolute;
+    //     display: none;
+    // }
+
+    // /* Show the checkmark when checked */
+    // &__checkboxContainer input:checked~.form__checkMark:after {
+    //     display: block;
+    // }
+
+    // /* Style the checkmark/indicator */
+    // &__checkboxContainer .form__checkMark:after {
+    //     left: 9px;
+    //     top: 3px;
+    //     width: 8px;
+    //     height: 15px;
+    //     border: solid white;
+    //     border-width: 0 3px 3px 0;
+    //     -webkit-transform: rotate(45deg);
+    //     -ms-transform: rotate(45deg);
+    //     transform: rotate(45deg);
+    // }
+}

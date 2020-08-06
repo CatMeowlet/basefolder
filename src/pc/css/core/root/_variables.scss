@@ -3,8 +3,8 @@
  VARIABLE FOR MIXINS _media.scss 
  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
  */
-
- $body-min-width: 1040px; //画面幅の最小値 ない場合はinitial
+ $base-size: 5;
+ $body-min-width: 1024px; //画面幅の最小値 ない場合はinitial
  $wrap-width: 1000px; //wrapの幅 ない場合はauto
  $wrap-max-width: initial; //最大幅 ない場合はinitial
  $wrap-wp-margin: auto; //SP画面wrapの横余白 ない場合はauto
@@ -20,3 +20,18 @@
  $content-btm-pc: 60px;
  $content-top-sp: 30px;
  $content-btm-sp: 30px;
+
+ /*
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+ VARIABLE FOR MIXINS _font-line.scss 
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+ */
+
+$font-size-base: 16;
+$font-weight-base: 500;
+$line-height-base: 1.75;
+
+
+// fonts
+
+$color-text01: #303030;

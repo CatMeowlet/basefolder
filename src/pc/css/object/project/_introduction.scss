@@ -1,0 +1,46 @@
+.p-introduction {
+    &__inner {
+        padding: 100px 0;
+    }
+
+    &__intro,
+    &__showcase {
+        padding: 10px;
+    }
+
+    &__intro {
+        .headline {
+            margin: 0 0 20px;
+            display: block;
+            text-align: left;
+
+            &__text {
+                display: block;
+                color: black;
+
+                @include is-sp {
+                    @include font-line(18);
+                }
+
+                @include is-tab {
+                    @include font-line(26);
+                }
+
+                @include is-pc {
+                    @include font-line(48);
+                }
+
+            }
+        }
+
+        .description {
+            margin-bottom: 50px;
+        }
+    }
+
+    &__showcase {
+        .pic {
+            width: 100%;
+        }
+    }
+}

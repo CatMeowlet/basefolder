@@ -1,0 +1,11 @@
+.p-header{
+    @include is-pc{
+        padding: 20px 0 ;
+    }
+    &__branding{
+        .logo{
+            height: 120px;
+            width: 150px;
+        }
+    }
+}
